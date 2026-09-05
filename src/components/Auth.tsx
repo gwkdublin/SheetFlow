@@ -20,7 +20,7 @@ export const Auth: React.FC<AuthProps> = ({ user }) => {
               />
             ) : (
               <div className="w-7 h-7 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 text-xs font-bold">
-                {user.email?.[0].toUpperCase()}
+                {user.email ? user.email[0].toUpperCase() : 'U'}
               </div>
             )}
             <span className="text-sm font-medium text-slate-700 hidden sm:block">
