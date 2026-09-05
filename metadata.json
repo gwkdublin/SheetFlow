@@ -1,0 +1,6 @@
+{
+  "name": "Excel to Drive Exporter",
+  "description": "Paste Excel data to automatically format it into a table. Export to CSV/JSON, or save directly to Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
